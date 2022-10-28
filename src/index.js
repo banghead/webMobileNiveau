@@ -3,13 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import App from "./App/App";
-import Map from "./Map/Map";
+import Acceuil from "./Acceuil/Acceuil";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/*<App />*/}
-    <Map />
+    <Acceuil />
   </React.StrictMode>
 );
 
