@@ -5,12 +5,15 @@
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
+    "@googlemaps/react-wrapper": "^1.1.35",
     "@mui/material": "^5.10.10",
+    "@react-google-maps/api": "^2.17.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "browserify-fs": "^1.0.0",
     "create-app-react": "^1.0.6",
+    "crypto-browserify": "^3.12.0",
     "jsonfile": "^6.1.0",
     "leaflet": "^1.9.2",
     "react": "^18.2.0",
@@ -18,7 +21,9 @@
     "react-leaflet": "^4.1.0",
     "react-scripts": "5.0.1",
     "util": "^0.12.5",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "winston-logger": "^1.0.1",
+    "winston-react": "^1.0.0-RC.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -44,8 +49,8 @@
       "last 1 safari version"
     ]
   },
-  "engines": {
-    "node": "16.18.0",
-    "npm": "8.19.2"
+  "devDependencies": {
+    "google-map-react": "^2.2.0",
+    "winston": "^3.8.2"
   }
 }
